@@ -1,0 +1,36 @@
+{
+  "name": "svgo-grunt",
+  "version": "0.0.1",
+  "description": "SVGO task for the Grunt build tool",
+  "keywords": [ "svgo", "svg", "gruntplugin", "gruntjs", "optimize", "minify" ],
+  "homepage": "http://svg.github.com/svgo-grunt/",
+  "bugs": {
+    "url": "https://github.com/svg/svgo-grunt/issues",
+    "email": "svgo@soulshine.in"
+  },
+  "author": {
+    "name": "Kir Belevich",
+    "email": "kir@soulshine.in",
+    "url": "https://github.com/deepsweet"
+  },
+  "contributors": [{
+    "name": "Artem Sapegin",
+    "email": "artem@sapegin.ru",
+    "url": "https://github.com/sapegin"
+  }],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/svg/svgo-grunt.git"
+  },
+  "main": "./tasks/svgo.js",
+  "dependencies": {
+    "svgo": "~0.1.2"
+  },
+  "engines": {
+    "node": ">=0.6.0"
+  },
+  "licenses": [{
+      "type": "MIT",
+      "url": "https://raw.github.com/svg/svgo-grunt/master/LICENSE"
+  }]
+}
