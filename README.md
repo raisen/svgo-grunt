@@ -29,3 +29,7 @@ module.exports = function(grunt) {
 
 };
 ```
+
+## License and copyrights
+
+This software is released under the terms of the [MIT license](https://github.com/svg/svgo-grunt/blob/master/LICENSE).
