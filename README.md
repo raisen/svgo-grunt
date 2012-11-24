@@ -1,6 +1,7 @@
 ## SVGO Grunt v0.0.1
 
 [SVGO](https://github.com/svg/svgo/) task for the [Grunt](https://github.com/gruntjs/grunt) build tool.
+![](//mc.yandex.ru/watch/18431389)
 
 ## How to use
 
