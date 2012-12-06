@@ -19,7 +19,7 @@ module.exports = function(grunt) {
                 .then(function(result) {
 
                     var inBytes = result.info.inBytes,
-                        outBytes = result.info.inBytes,
+                        outBytes = result.info.outBytes,
                         profitPercents = 100 - outBytes * 100 / inBytes;
 
                     // rewrite original file
