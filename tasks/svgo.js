@@ -8,10 +8,10 @@ module.exports = function(grunt) {
 
         grunt.log.subhead('Optimizing with SVGO...');
 
-        var files = grunt.file.expandFiles(this.data.files);
+        var files = grunt.file.expand(this.data.files);
 
         // async loop over files from task
-        grunt.utils.async.forEach(files, function(file, nextFile) {
+        grunt.util.async.forEach(files, function(file, nextFile) {
 
             // optimize SVG from current file
             svgo.fromFile(file)
