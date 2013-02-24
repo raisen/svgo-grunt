@@ -29,7 +29,7 @@
   },
   "main": "./tasks/svgo.js",
   "dependencies": {
-    "svgo": "~0.1.2"
+    "svgo": "~0.2.3"
   },
   "engines": {
     "node": ">=0.6.0"
