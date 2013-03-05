@@ -1,4 +1,4 @@
-## SVGO Grunt v0.0.2
+## SVGO Grunt v0.0.3
 
 [SVGO](https://github.com/svg/svgo/) task for the [Grunt](https://github.com/gruntjs/grunt) build tool.
 ![](https://mc.yandex.ru/watch/18431389)

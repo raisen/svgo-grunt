@@ -1,6 +1,6 @@
 {
   "name": "svgo-grunt",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Grunt SVG optimization task using SVGO tool",
   "keywords": [ "svgo", "svg", "gruntplugin", "gruntjs", "optimize", "minify" ],
   "homepage": "http://svg.github.com/svgo-grunt/",
