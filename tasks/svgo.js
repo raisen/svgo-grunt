@@ -1,11 +1,11 @@
 var SVGO = require('svgo'),
-    svgo = new SVGO();
+    svgo;
 
 module.exports = function(grunt) {
 
     // register grunt multitask
     grunt.registerMultiTask('svgo', 'Minification task with SVGO.', function() {
-
+	    svgo = new SVGO( {coa: this.data.ops } );
         grunt.log.subhead('Optimizing with SVGO...');
 
         var files = grunt.file.expand(this.data.files);
